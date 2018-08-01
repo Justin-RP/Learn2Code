@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AAFAAB"
+    tools:context=".FrameLayouts.SecondFragmentActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <TextView
+            android:id="@+id/fragmentTvText"
+            android:textSize="30dp"
+            android:text="I Am Fragment B, need to have more data to fill (Only For ScrollView Setting)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <!--</ScrollView>-->
+
+
+</LinearLayout>

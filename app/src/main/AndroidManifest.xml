@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a16022916.learn2code">
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Simple.SimpleListActivity" />
+        <activity android:name=".Custom.CustomListActivity" />
+        <activity android:name=".Image.ImageActivity" />
+        <activity android:name=".Result.ResultActivity" />
+        <activity android:name=".Result.ResultSecondActivity" />
+        <activity android:name=".Serializing.ObjectSerializableActivity" />
+        <activity android:name=".Serializing.ObjectSerializableSecondActivity" />
+        <activity android:name=".Email.EmailActivity" />
+        <activity android:name=".Website.WebsiteActivity" />
+        <activity android:name=".LoginApp.LoginActivity" />
+        <activity android:name=".LoginApp.RegisterActivity" />
+        <activity android:name=".LoginApp.MainPageActivity" />
+        <activity android:name=".EditApp.EditAppActivity" />
+        <activity android:name=".ScheduledNotification.NotificationActivity" />
+
+        <receiver
+            android:name=".ScheduledNotification.ScheduledNotification"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".ScheduledNotification.ScheduledNotificationHigh"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".ScheduledNotification.ScheduledNotificationBig"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".FrameLayouts.FragmentMainActivity" />
+        <activity android:name=".MessageActivityMsg" />
+        <activity android:name=".MessageMainActivity"></activity>
+    </application>
+
+</manifest>
